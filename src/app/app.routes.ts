@@ -34,4 +34,8 @@ export const routes: Routes = [
     path: 'scan',
     loadComponent: () => import('./pages/qr-scan/qr-scan.page').then((m) => m.QRScanPage),
   },
+  {
+    path: 'admin',
+    loadComponent: () => import('./pages/admin/dashboard/admin-dashboard.page').then((m) => m.AdminDashboardPage),
+  },
 ];
