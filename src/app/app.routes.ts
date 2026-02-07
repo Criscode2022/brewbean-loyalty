@@ -30,4 +30,8 @@ export const routes: Routes = [
     path: 'profile',
     loadComponent: () => import('./pages/profile/profile.page').then((m) => m.ProfilePage),
   },
+  {
+    path: 'scan',
+    loadComponent: () => import('./pages/qr-scan/qr-scan.page').then((m) => m.QRScanPage),
+  },
 ];
