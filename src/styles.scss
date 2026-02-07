@@ -1,0 +1,37 @@
+/* Brew & Bean Global Styles */
+
+:root {
+  --ion-color-coffee: #6F4E37;
+  --ion-color-coffee-rgb: 111, 78, 55;
+  --ion-color-coffee-contrast: #ffffff;
+  --ion-color-coffee-contrast-rgb: 255, 255, 255;
+  --ion-color-coffee-shade: #624530;
+  --ion-color-coffee-tint: #7d604b;
+}
+
+.ion-color-coffee {
+  --ion-color-base: var(--ion-color-coffee);
+  --ion-color-base-rgb: var(--ion-color-coffee-rgb);
+  --ion-color-contrast: var(--ion-color-coffee-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-coffee-contrast-rgb);
+  --ion-color-shade: var(--ion-color-coffee-shade);
+  --ion-color-tint: var(--ion-color-coffee-tint);
+}
+
+/* Login page styles */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-container p {
+  color: var(--ion-color-medium);
+  margin-bottom: 2rem;
+}
